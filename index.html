@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook - Sesión de Navegación Segura</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { width: 95%; margin: auto; }
+        .dropdown { margin-bottom: 20px; }
+        .time-title { font-size: 1.2em; font-weight: bold; }
+        .activity { margin-bottom: 30px; }
+        .banner { background-color: #4CAF50; color: white; padding: 10px; cursor: pointer; }
+        .title { font-weight: bold; }
+        .subtitle { font-style: italic; }
+        .content { display: none; padding: 10px; border: 1px solid #ddd; }
+        table { width: 100%; border-collapse: collapse; }
+        td { padding: 8px; border: 1px solid #ddd; vertical-align: top; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Playbook - Sesión de Navegación Segura</h1>
+
+        <!-- Actividad 0 -->
+        <div id="activity-0" class="activity">
+            <div class="banner" onclick="toggleContent('revision_mision')">
+                <div class="title">📚 Actividad 0: Revisión Misión (1 paso) ⏰ Tiempo: 0 minutos</div>
+                <div class="subtitle">Recordar a los estudiantes el propósito de la sesión.</div>
+            </div>
+            <div id="revision_mision" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1:</strong> Revisar diapositiva 1 para poder preparar la misión del día.</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> N/A</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 1 -->
+        <div id="activity-1" class="activity">
+            <div class="banner" onclick="toggleContent('saludo_ritual')">
+                <div class="title">🎉 Actividad 1: Saludo y Ritual Gnius Club (4 pasos) ⏰ Tiempo: 3.5 minutos</div>
+                <div class="subtitle">Dar la bienvenida a los estudiantes y preparar el ambiente para el aprendizaje.</div>
+            </div>
+            <div id="saludo_ritual" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (1 minuto):</strong> Revisar diapositiva 2 "Logotipo de Gnius Club".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Buenos días, genios digitales! Hoy tenemos una misión emocionante: aprender cómo protegernos en el mundo digital. ¿Están listos?"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (1 minuto):</strong> Revisar diapositiva 3 "¿Cómo estás?".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Vamos a hacer una actividad divertida para ver cómo se sienten. Si te sientes con mucha energía, haz el movimiento de un superhéroe volando. Si te sientes tranquilo, mueve los brazos como si estuvieras nadando suavemente en el agua."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 3 (0.5 minutos):</strong> Revisar diapositiva 4 "Gracias por asistir".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Antes de empezar, vamos a juntar nuestras manos y dar gracias por la oportunidad de aprender algo nuevo hoy. ¡Gracias por estar aquí y por ser parte de esta aventura digital!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 4 (1 minuto):</strong> Revisar diapositiva 5 "Objetivos de la Misión".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Hoy nuestra misión tiene tres objetivos emocionantes: 1. Identificar las amenazas en internet, 2. Comprender cómo protegernos de ellas, 3. Convertirnos en superhéroes digitales."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 2 -->
+        <div id="activity-2" class="activity">
+            <div class="banner" onclick="toggleContent('innovacion_dia')">
+                <div class="title">💡 Actividad 2: Innovación del Día (2 pasos) ⏰ Tiempo: 5 minutos</div>
+                <div class="subtitle">Introducir un concepto clave relacionado con la navegación segura.</div>
+            </div>
+            <div id="innovacion_dia" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (1 minuto):</strong> Revisar diapositiva 6 "Innovación del día: Navegación segura".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Hoy vamos a hablar sobre la importancia de navegar de manera segura en internet. ¿Alguna vez se han preguntado cómo podemos protegernos mientras navegamos por la red?"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (4 minutos):</strong> Revisar diapositiva 7 "Navegación Segura".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Vamos a ver este video corto que nos explica cómo podemos mantenernos seguros en internet. ¡Presten mucha atención porque después discutiremos lo que aprendimos!" Hugo y Glenda, le enseñan a los niños a navegar de manera segura en Internet. - YouTube</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 3 -->
+        <div id="activity-3" class="activity">
+            <div class="banner" onclick="toggleContent('brain_gym')">
+                <div class="title">🧠 Actividad 3: Brain Gym (6 pasos) ⏰ Tiempo: 8.5 minutos</div>
+                <div class="subtitle">Introducir el Brain Gym y preparar a los estudiantes para la actividad.</div>
+            </div>
+            <div id="brain_gym" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (1 minuto):</strong> Revisar diapositiva 8 "Brain Gym".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Es hora de activar nuestras mentes! Vamos a entrar a la plataforma donde haremos una actividad divertida para aprender más sobre cómo navegar seguros en internet."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (1 minuto):</strong> Revisar diapositiva 9 "LOG IN".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Ahora, abran su navegador y vayan al sitio que aparece en pantalla."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 3 (0.5 minutos):</strong> Revisar diapositiva 10 "Realizar: Quest y Challenge".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Accederán a la Misión 3: Quest y el Challenge. Tienen 5 minutos para completar la misión".</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 4 (5 minutos):</strong> Revisar diapositiva 11 "Realizar: Quest y Challenge".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> N/A</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 5 (1 minuto):</strong> Revisar diapositiva 12 "Importancia de la navegación segura".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "La navegación segura es muy importante porque nos protege de caer en las trampas de los supervillanos. ¿Qué debemos hacer si encontramos un sitio que pide nuestra información personal?"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 6 (0.5 minutos):</strong> Revisar diapositiva 13 "Objetivos de la misión alcanzados".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Genial! Hemos alcanzado nuestros objetivos y aprendido a identificar cómo navegar de forma segura en internet."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 4 -->
+        <div id="activity-4" class="activity">
+            <div class="banner" onclick="toggleContent('state_change')">
+                <div class="title">🔄 Actividad 4: State Change (2 pasos) ⏰ Tiempo: 2 minutos</div>
+                <div class="subtitle">Relajar y reenergizar a los estudiantes para prepararlos para el siguiente segmento de la clase.</div>
+            </div>
+            <div id="state_change" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (1 minuto):</strong> Revisar diapositiva 14 "Brain Vitamin".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Es momento de recargar nuestras energías! Imaginen que son burbujas flotando en el aire. Empiecen a moverse suavemente como si estuvieran flotando. Ahora, cuando toque las palmas, exploten la burbuja y vuelvan a ser ustedes mismos llenos de energía."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (1 minuto):</strong> Revisar diapositiva 15 "Transformación de la burbuja".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Después de explotar la burbuja, imaginen que se transforman en una ráfaga de viento fuerte y enérgica, moviéndose rápidamente por la habitación. ¡Sientan la fuerza del viento mientras se mueven! Ahora, regresen a sus lugares tranquilamente, listos para continuar con nuestra misión."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 5 -->
+        <div id="activity-5" class="activity">
+            <div class="banner" onclick="toggleContent('team_gnius')">
+                <div class="title">👥 Actividad 5: Team Gnius (3 pasos) ⏰ Tiempo: 2 minutos</div>
+                <div class="subtitle">Formar parejas para trabajar juntos en el desafío de navegación segura.</div>
+            </div>
+            <div id="team_gnius" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (0.5 minutos):</strong> Revisar diapositiva 16 "Team Gnius: Formación de parejas".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Genios, ahora vamos a formar equipos! Encuentren a su compañero de equipo para trabajar en el próximo desafío. Tienen 30 segundos para hacerlo."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (0.5 minutos):</strong> Revisar diapositiva 17 "Recoger dispositivos".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Cada pareja necesita una Magic tablet para completar el desafío. Un integrante de cada equipo venga a recoger una Magic tablet. Tienen 30 segundos para hacerlo."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 3 (1 minuto):</strong> No aplica diapositiva.</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Ahora que tienen sus Magic tablets y están en parejas, es momento de organizarse para el desafío. Tienen 1 minuto para discutir y estar listos."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 6 -->
+        <div id="activity-6" class="activity">
+            <div class="banner" onclick="toggleContent('challenge')">
+                <div class="title">⚔️ Actividad 6: Challenge (7 pasos) ⏰ Tiempo: 17.5 minutos</div>
+                <div class="subtitle">Realizar el desafío sobre las consecuencias de compartir en línea.</div>
+            </div>
+            <div id="challenge" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (1 minuto):</strong> Revisar diapositiva 18 "Challenge".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Es momento del desafío, superhéroes digitales! Hoy vamos a realizar el reto de identificar los peligros en línea. Usaremos el mapa para reconocer a los supervillanos del internet y cómo podemos protegernos de ellos."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (1 minuto):</strong> Revisar diapositiva 19 "Reconoce a los supervillanos".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Usaremos nuestras Magic tablets para que en pareja dibujen al supervillano y evalúen la trampa para completar el reto. En la pantalla aparecerán situaciones donde los supervillanos tratarán de engañarnos. Tendrán que decidir si es seguro o no hacer clic o dar información. ¡Presten mucha atención!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 3 (1 minuto):</strong> Revisar diapositiva 20 "Encuentra las trampas".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Revisen detalladamente el mapa para ver qué información está solicitando el Supervillano, para que puedan identificar las trampas y vencerlos."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 4 (10 minutos):</strong> Revisar diapositiva 21 "¡A trabajar!"</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Trabajen en parejas para completar el reto. Usen las Magic tablets, dibujen a sus Supervillanos y evalúen los peligros en línea y discutan con su compañero cómo actuarían frente a cada supervillano. Así podrán avanzar en el mapa. ¡Tienen 10 minutos para completar el desafío!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 5 (3 minutos):</strong> Revisar diapositiva 22 "GAME OVER".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Revisen sus respuestas y prepárense para compartir con la clase cómo enfrentaron a los supervillanos y qué hicieron para protegerse. ¡Cada pareja tendrá 1 minuto para presentar!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 6 (0.5 minutos):</strong> Revisar diapositiva 23 "Explica tus resultados".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Ahora, vamos a escuchar a cada pareja. Cuéntenos qué supervillano enfrentaron y cómo lograron protegerse de su trampa. ¿Qué aprendieron durante el desafío?"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 7 (0.5 minutos):</strong> Revisar diapositiva 24 "Objetivos de la Misión alcanzados".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Superhéroes digitales, hemos completado nuestra misión! Ahora sabemos cómo protegernos de los peligros en línea y navegar de forma segura."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 7 -->
+        <div id="activity-7" class="activity">
+            <div class="banner" onclick="toggleContent('easter_egg')">
+                <div class="title">🥚 Actividad 7: Easter Egg (5 pasos) ⏰ Tiempo: 5 minutos</div>
+                <div class="subtitle">Realizar la actividad sorpresa del Easter Egg.</div>
+            </div>
+            <div id="easter_egg" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (0.5 minutos):</strong> Revisar diapositiva 25 "Easter Egg".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Sorpresa, superhéroes digitales! Es hora de un desafío rápido para ver quién ha estado prestando atención. La siguiente diapositiva tiene una pregunta sobre los peligros en línea. Levanten la mano si saben la respuesta."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (1 minuto):</strong> Revisar diapositiva 26 "Pregunta del Easter Egg".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Aquí va la pregunta: 'Ves un anuncio que dice: ¡Felicidades, has ganado un viaje gratis! Solo haz clic aquí para reclamar tu premio. ¿Qué debes hacer?' Opción 1: Ignorar el anuncio, Opción 2: Hacer clic para reclamar el premio."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 3 (1 minuto):</strong> Observar a los estudiantes y seleccionar a 3 para que den su respuesta.</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Levanten la mano si saben la respuesta... [Seleccionar a 3 estudiantes]."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 4 (1 minuto):</strong> Escuchar a cada estudiante individualmente mientras dan su respuesta en voz baja.</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Ven aquí y dime tu respuesta en voz baja para que los demás no escuchen."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 5 (1 minuto):</strong> Revisar diapositiva 27 "Respuesta correcta".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Muy bien, la respuesta correcta es Opción 1: Ignorar el anuncio. Estos anuncios de premios suelen ser falsos y peligrosos, así que no debemos hacer clic en ellos."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 8 -->
+        <div id="activity-8" class="activity">
+            <div class="banner" onclick="toggleContent('honor_dojo')">
+                <div class="title">🎖️ Actividad 8: Honor de Dojo (2 pasos) ⏰ Tiempo: 2 minutos</div>
+                <div class="subtitle">Reconocer y celebrar los logros de los estudiantes durante la clase.</div>
+            </div>
+            <div id="honor_dojo" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (1 minuto):</strong> Revisar diapositiva 28 "Felicidades por su gran trabajo".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Vamos a reconocer a los superhéroes digitales que más destacaron hoy. Felicitaciones a [Nombre], [Nombre] y [Nombre] por su gran trabajo enfrentando a los supervillanos y protegiendo el mundo digital."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (1 minuto):</strong> Revisar diapositiva 29 "Logotipo de Honor de Dojo".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Ahora, vamos a recoger todo lo que usamos hoy y asegurarnos de que nuestro lugar quede ordenado. Recordemos que ser un superhéroe también significa cuidar nuestro entorno. ¡Nos vemos en la próxima misión!"</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
+
